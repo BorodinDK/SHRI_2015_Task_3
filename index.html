@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Music Player</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<script src="js/id3-minimized.js"></script>
+</head>
+<body>
+	<div class="player_body">
+		<div class="player">
+			<div id="mask">
+				<div id="no_mask">
+					<div class="visual">
+						<div class="cover"></div>
+						<div class="waveform">
+							<canvas width="450" height="150"></canvas>
+							<div id="time_btn"></div>
+							<div class="time">
+								<span id="current">0:00</span>
+								<span id="total">0:00</span>
+							</div>
+						</div>
+					</div>
+					<div class="console">
+						<div id="play_pause"></div>
+						<div class="track_info">
+							<span class="title"></span>
+							<span class="album"></span>
+							<span class="file"></span>
+						</div>
+						<ul class="ekvalayzer">
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+							<li><div class="range"><div class="btn"></div></div></li>
+						</ul>
+					</div>
+					<div id="menu_btn"></div>
+				</div>
+			</div>
+		</div>
+		<div class="info_open">Перетащите сюда аудиофайл или воспользуйтесь кнопокой ниже</div>
+		<button onclick="openFile()">Открыть аудиофайл</button>
+		<div id="notification"></div>
+		<ul id="menu">
+			<li>Pop</li>
+			<li>Rock</li>
+			<li>Jazz</li>
+			<li>Classic</li>
+			<li class="active">Normal</li>
+		</ul>
+	</div>
+</body>
+<script src="js/main.js"></script>
+</html>
