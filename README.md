@@ -1,7 +1,9 @@
 Аудио плеер
 ========
 
-![скриншот Аудио плеера](http://denisborodin.ru/projects/yandex_shri/github_img/shri_task_3.jpg)
+Ссылка на рабочий пример – [borodindk.github.io/SHRI_2015_Task_3](http://borodindk.github.io/SHRI_2015_Task_3)
+
+![скриншот Аудио плеера](http://denisborodin.ru/projects/yandex_shri/github_img/shri_task_3.jpg?2)
 
 ### Возможности плеера
 * Воспроизводит популярные форматы аудиофайлов (mp3, wav, ogg).
